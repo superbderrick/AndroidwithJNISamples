@@ -24,7 +24,6 @@ public class GLView extends GLSurfaceView implements GLSurfaceView.Renderer {
         this.setRenderMode(RENDERMODE_WHEN_DIRTY);
         this.setFocusableInTouchMode(true);
 
-        //init();
     }
 
     @Override

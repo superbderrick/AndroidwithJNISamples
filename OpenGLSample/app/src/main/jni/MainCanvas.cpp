@@ -20,6 +20,7 @@ void onSurfaceCreate() {
 
 void onTouchEvent(int x, int y, int touchFlag)  {
 
+
 }
 
 void updateGameLoop()  {

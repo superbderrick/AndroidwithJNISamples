@@ -11,7 +11,8 @@
 #include "summmerplayer_firstproject_sensation_openglsample_GLView.h"
 
 #include "MainCanvas.h"
-#define  LOG_TAG    "NDK_Part"
+
+#define  LOG_TAG    "DrawFigure_jni"
 #define  LOGUNK(...)  __android_log_print(ANDROID_LOG_UNKNOWN,LOG_TAG,__VA_ARGS__)
 #define  LOGDEF(...)  __android_log_print(ANDROID_LOG_DEFAULT,LOG_TAG,__VA_ARGS__)
 #define  LOGV(...)  __android_log_print(ANDROID_LOG_VERBOSE,LOG_TAG,__VA_ARGS__)
@@ -22,11 +23,6 @@
 #define  LOGF(...)  __android_log_print(ANDROID_FATAL_ERROR,LOG_TAG,__VA_ARGS__)
 #define  LOGS(...)  __android_log_print(ANDROID_SILENT_ERROR,LOG_TAG,__VA_ARGS__)
 
-class DrawFigure_jni {
-public:
-
-
-};
 
 
 #endif //OPENGLSAMPLE_FIGURECANVAS_H

@@ -5,7 +5,9 @@
 #include <GLES/glext.h>
 
 
+
 #ifndef OPENGLSAMPLE_GLGAMERENDERER_H
+
 #define OPENGLSAMPLE_GLGAMERENDERER_H
 
 void onSurfaceCreate();

@@ -18,7 +18,6 @@ void JNICALL Java_summmerplayer_firstproject_sensation_openglsample_GLView_nativ
 {
     LOGI("nativeChanged");
     onSurfaceChanged(w,h);
-
 };
 
 
@@ -33,7 +32,7 @@ void JNICALL Java_summmerplayer_firstproject_sensation_openglsample_GLView_nativ
  void JNICALL Java_summmerplayer_firstproject_sensation_openglsample_GLView_nativeOnTouchEvent
         (JNIEnv *, jclass, jint x, jint y , jint touchFlag)
  {
-     //LOGI("nativeOntouchEvent");
+     LOGI("nativeOntouchEvent");
      onTouchEvent(x, y, touchFlag);
  };
 
@@ -42,7 +41,6 @@ void JNICALL Java_summmerplayer_firstproject_sensation_openglsample_GLView_init
         (JNIEnv *, jclass)
 {
     LOGI("nativeInit");
-
 };
 
 
