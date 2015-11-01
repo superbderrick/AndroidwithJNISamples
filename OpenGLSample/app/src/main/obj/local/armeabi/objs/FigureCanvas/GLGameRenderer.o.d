@@ -1,5 +1,5 @@
-obj/local/armeabi/objs/FigureCanvas/FigureCanvas.o: jni/FigureCanvas.cpp \
- jni/FigureCanvas.h \
+obj/local/armeabi/objs/FigureCanvas/GLGameRenderer.o: \
+ jni/GLGameRenderer.cpp jni/GLGameRenderer.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/gl.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/glplatform.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/KHR/khrplatform.h \
@@ -23,14 +23,9 @@ obj/local/armeabi/objs/FigureCanvas/FigureCanvas.o: jni/FigureCanvas.cpp \
  /Users/derrick/software/android_ndk/android-ndk-r10e/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/sys/_types.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/machine/_types.h \
- /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/glext.h \
- /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/android/log.h \
- /Users/derrick/software/android_ndk/android-ndk-r10e/sources/cxx-stl/stlport/stlport/stdarg.h \
- jni/summmerplayer_firstproject_sensation_openglsample_GLView.h \
- /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/jni.h \
- jni/GLGameRenderer.h
+ /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/glext.h
 
-jni/FigureCanvas.h:
+jni/GLGameRenderer.h:
 
 /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/gl.h:
 
@@ -79,13 +74,3 @@ jni/FigureCanvas.h:
 /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/machine/_types.h:
 
 /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/glext.h:
-
-/Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/android/log.h:
-
-/Users/derrick/software/android_ndk/android-ndk-r10e/sources/cxx-stl/stlport/stlport/stdarg.h:
-
-jni/summmerplayer_firstproject_sensation_openglsample_GLView.h:
-
-/Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/jni.h:
-
-jni/GLGameRenderer.h:

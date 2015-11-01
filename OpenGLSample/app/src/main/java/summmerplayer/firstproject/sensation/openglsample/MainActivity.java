@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     static {
-        System.loadLibrary("FigureCanvas");
+        System.loadLibrary("DrawFigure");
     }
 }

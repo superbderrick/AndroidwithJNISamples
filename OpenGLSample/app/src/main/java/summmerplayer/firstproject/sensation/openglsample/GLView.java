@@ -11,6 +11,7 @@ import javax.microedition.khronos.opengles.GL10;
  */
 public class GLView extends GLSurfaceView implements GLSurfaceView.Renderer {
 
+    private static native void init();
     private static native void nativeCreated();
     private static native void nativeChanged(int w, int h);
     private static native void nativeUpdateGame();
@@ -22,6 +23,8 @@ public class GLView extends GLSurfaceView implements GLSurfaceView.Renderer {
         this.requestFocus();
         this.setRenderMode(RENDERMODE_WHEN_DIRTY);
         this.setFocusableInTouchMode(true);
+
+        //init();
     }
 
     @Override

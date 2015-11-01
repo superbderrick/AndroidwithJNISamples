@@ -1,5 +1,5 @@
-obj/local/armeabi/objs/FigureCanvas/FigureCanvas.o: jni/FigureCanvas.cpp \
- jni/FigureCanvas.h \
+obj/local/armeabi/objs/DrawFigure/DrawFigure_jni.o: \
+ jni/DrawFigure_jni.cpp jni/DrawFigure_jni.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/gl.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/glplatform.h \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/KHR/khrplatform.h \
@@ -30,7 +30,7 @@ obj/local/armeabi/objs/FigureCanvas/FigureCanvas.o: jni/FigureCanvas.cpp \
  /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/jni.h \
  jni/GLGameRenderer.h
 
-jni/FigureCanvas.h:
+jni/DrawFigure_jni.h:
 
 /Users/derrick/software/android_ndk/android-ndk-r10e/platforms/android-8/arch-arm/usr/include/GLES/gl.h:
 

@@ -191,6 +191,14 @@ extern "C" {
 #define summmerplayer_firstproject_sensation_openglsample_GLView_RENDERMODE_WHEN_DIRTY 0L
 /*
  * Class:     summmerplayer_firstproject_sensation_openglsample_GLView
+ * Method:    init
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_summmerplayer_firstproject_sensation_openglsample_GLView_init
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     summmerplayer_firstproject_sensation_openglsample_GLView
  * Method:    nativeCreated
  * Signature: ()V
  */
